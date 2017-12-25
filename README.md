@@ -1,9 +1,13 @@
 # bitbucket-nodejs
 A streamlined nodejs ci image for bitbucket pipelines
 
+# Includes
+* Latest Nodejs 8 LTS
+* Latest AWS CLI
+ 
 ## Usage
 
-Example bitbucket-pipelines.yml
+Example **bitbucket-pipelines.yml**
 
 ```yml
 # This is a sample build configuration for JavaScript.
