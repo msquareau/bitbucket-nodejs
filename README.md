@@ -4,6 +4,7 @@ A streamlined nodejs ci image for bitbucket pipelines
 ## Includes
 * Latest Nodejs 8 LTS
 * Latest AWS CLI
+* Puppeteer for test in chromium
  
 ## Usage
 
