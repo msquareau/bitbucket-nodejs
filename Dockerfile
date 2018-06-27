@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y gconf-service libasound2 libatk1.0-0 li
     && rm -rf /src/*.deb
 
 # It's a good idea to use dumb-init to help prevent zombie chrome processes.
-ADD https://github.com/Yelp/dumb-init/releases/download/v1.2.0/dumb-init_1.2.0_amd64 /usr/local/bin/dumb-init
+ADD https://github.com/Yelp/dumb-init/releases/download/v1.2.1/dumb-init_1.2.1_amd64 /usr/local/bin/dumb-init
 RUN chmod +x /usr/local/bin/dumb-init
 
 # Uncomment to skip the chromium download when installing puppeteer. If you do,
