@@ -5,6 +5,7 @@ A streamlined nodejs ci image for bitbucket pipelines
 * Latest Nodejs 10
 * Latest AWS CLI
 * Puppeteer for test in chromium
+* includes sentry-cli from [sentry.io] for artifact uploads and release monitoring
  
 ## Usage
 
