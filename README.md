@@ -1,3 +1,5 @@
+**This repository is archived and no longer maintained !**
+
 ## bitbucket-nodejs
 A streamlined nodejs ci image for bitbucket pipelines
 
